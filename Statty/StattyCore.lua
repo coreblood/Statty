@@ -342,7 +342,7 @@ boot:SetScript("OnEvent", function(self)
     -- addon folder isn't being read at all (wrong folder name, or disabled).
     print("|cff00ff00[Statty]|r loaded. Type /statty for the window, /asc options for settings.")
     local stale = {}
-    for _, old in ipairs({ "AutoStatConverter", "StatFeed" }) do
+    for _, old in ipairs({ "AutoStatConverter", "StatFeed", "UncappedQoL" }) do
         if IsAddOnLoaded and IsAddOnLoaded(old) then
             if DisableAddOn then DisableAddOn(old) end
             table.insert(stale, old)
