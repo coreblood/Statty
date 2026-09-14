@@ -2,7 +2,7 @@
 ## Title: Statty
 ## Notes: Stat Feed with inline conversion planning, the converter queue, and automatic stat spending - in one addon.
 ## Author(s): Mhortai
-## Version: 1.6.5
+## Version: 1.6.6
 ## OptionalDeps: UncappedOptions, UncappedUI, Uncapped64bitUI
 ## SavedVariables: AutoStatConverterDB
 ## SavedVariablesPerCharacter: StatFeedDB
